@@ -8,6 +8,9 @@
  * was used, in which first the blocks get parsed and then
  * the inline structures.
  *
+ * Reference:
+ * => (https://spec.commonmark.org/0.31.2/#appendix-a-parsing-strategy)
+ *
  */
 
 Node := clone Object do (
