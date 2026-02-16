@@ -1,0 +1,77 @@
+█▀█ █▀█ █
+█▀▀ █▄█ █ is a very minimal markup language
+
+it tries to be very minimal with not many elements,
+inspired by multiple lightweight markup languages.
+
+That means that certain elements that exist in other
+markup languages aren't in Poi, these include: in
+general lists, regardless of if they are ordered or
+unordered; blockquotes; bolds; code-blocks and
+inline-code.
+
+But Poi allows other elements like: images and
+footnotes.
+
+
+  Emphasis:
+
+Emphasis follows an space followed two slashes
+and then followed without a space by the text that
+should be empasised. It ends with two slashes following
+the text without an space between the text and the
+slashes, but there must be an space after them.
+
+
+  Images:
+
+Images are wrapped inside of two curly brackets with
+the link and an alternative text after a vertical bar.
+
+
+  Links:
+
+Links can be automatically deteted, but only if the
+possess the "https"-scheme.
+
+When inlining link, they are wrapped in two square
+brackets, following the link and on optional
+display text that followes the vertical bar.
+
+
+  Paragraph:
+
+To denote a paragraph, the line of the paragraph must
+not be empty. The paragraph ends with an empty line.
+
+
+  Headings:
+
+To stay relatively simple and similar to other markup
+languages, Poi uses the atx-style of headings with an
+octothorp(#) in a single line and all the following
+text will be part of the heading until it hits a
+newline.
+In addition only 3 heading levels are supported, else
+the line will be assumed to be part of a normal
+paragraph.
+
+
+  Footnotes:
+
+The footnotes are very similar to the way that extended
+markdown has footnotes, with the exception that after
+the open square bracket([) will not need a caret(^) and
+is just the identifier of the footnote and it will
+close with the closed square bracket(]).
+The identifier can not contain any spaces or tabs.
+
+To declare footnote, another square bracket with and
+identifier between the brackets and an colon must be
+present, after the colon the text can follow.
+When the following lines are indented by at least two
+spaces or a tab, then those lines will still be
+included in the footnote.
+
+
+                                         vim:cc=1,28,55
