@@ -7,8 +7,7 @@ inspired by multiple lightweight markup languages.
 That means that certain elements that exist in other
 markup languages aren't in Poi, these include: in
 general lists, regardless of if they are ordered or
-unordered; blockquotes; bolds; code-blocks and
-inline-code.
+unordered; bolds; code-blocks and inline-code.
 
 But Poi allows other elements like: images and
 footnotes.
@@ -18,15 +17,16 @@ footnotes.
 
 Emphasis follows an space followed two slashes
 and then followed without a space by the text that
-should be empasised. It ends with two slashes following
-the text without an space between the text and the
-slashes, but there must be an space after them.
+should be emphasised. It ends with two slashes
+following the text without an space between the text
+and the slashes, but there must be an space after them.
 
 
   Images:
 
-Images are wrapped inside of two curly brackets with
-the link and an alternative text after a vertical bar.
+Images are wrapped inside of two curly brackets({{ and
+}}) with the link and an alternative text after a
+vertical bar.
 
 
   Links:
@@ -35,7 +35,7 @@ Links can be automatically deteted, but only if the
 possess the "https"-scheme.
 
 When inlining link, they are wrapped in two square
-brackets, following the link and on optional
+brackets([[ and ]]), following the link and on optional
 display text that followes the vertical bar.
 
 
@@ -55,6 +55,11 @@ newline.
 In addition only 3 heading levels are supported, else
 the line will be assumed to be part of a normal
 paragraph.
+
+
+  Blockquote:
+
+The Blockquote starts with an greater-than sign(>).
 
 
   Footnotes:

@@ -26,6 +26,7 @@ Poi := clone Object do (
   parse    := method(source,
     source print
   )
+  # parsing four blocks: paragraph, heading, blockquote and footnote
   parseBlock ::= method(source,
     source println
   )
