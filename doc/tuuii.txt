@@ -1,7 +1,7 @@
 ▀█▀ █░█ █░█ █ █
 ░█░ █▄█ █▄█ █ █ is a blog builder
 
-TODO: Use "lastAccessDate", "lastDataChangeDate" and "lastInfoChangeDate" in Io
-      for Tūī.
+TODO: Use "lastAccessDate", "lastDataChangeDate" and
+      "lastInfoChangeDate" in Io for Tūī.
 
                                          vim:cc=1,28,55

@@ -1,6 +1,6 @@
 /*
  *  ▀█▀ █░█ █░█ █ █
- *  ░█░ █▄█ █▄█ █ █
+ *  ░█░ █▄█ █▄█ █ █.io
  *
  * Tuuii, a static blog builder
  * written in Io.

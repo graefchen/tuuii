@@ -31,12 +31,9 @@ vertical bar.
 
   Links:
 
-Links can be automatically deteted, but only if the
-possess the "https"-scheme.
-
-When inlining link, they are wrapped in two square
-brackets([[ and ]]), following the link and on optional
-display text that followes the vertical bar.
+When inlining links, they are wrapped in the greater
+and less brackets(< and >), following the link and on
+optional display text that followes the vertical bar.
 
 
   Paragraph:

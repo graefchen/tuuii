@@ -18,3 +18,16 @@ The markup language is inspired by: gemtext[^2], mycomarkup[^3] and creole[^4] a
 [^101]: https://karpathy.ai/microgpt.html
 
 [^102]: https://norvig.com/spell-correct.html
+
+## TODO
+
+- [ ] Poi
+  - [ ] Implement Blocks
+    - [ ] Paragraph
+    - [x] Headings
+    - [ ] Blockquote
+    - [ ] Footnotes
+  - [ ] Inline Elements
+    - [ ] Emphasis
+    - [ ] Image
+    - [ ] Link
